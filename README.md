@@ -21,6 +21,3 @@ https://docs.google.com/spreadsheets/d/1NAss2n71KSDXqVm4YvODSKMN3rYxKpEpzFplo5h-
 
 URL: 
 https://docs.google.com/spreadsheets/d/1NAss2n71KSDXqVm4YvODSKMN3rYxKpEpzFplo5h-FpQ/edit#gid=0
-
-Sheet-ID
-1NAss2n71KSDXqVm4YvODSKMN3rYxKpEpzFplo5h-FpQ
