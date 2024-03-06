@@ -12,22 +12,24 @@ const api_token = import.meta.env.VITE_GOOGLE_API_KEY;
 // const titel = ref('')
 // const detail = ref('')
 
+// Test-Array
 const items = ref([
       ['11:00', '04.03.2024', 'WS Persönliche Präsentation', 'Badenerstrasse 437', 'highlight'],
       ['12:00', '11.03.2024', 'WS Persönliche Präsentation', 'Badenerstrasse 437', 'default'],
       ['13:00', '18.03.2024', 'WS Persönliche Präsentation', 'Badenerstrasse 437', 'default']
 ])
 
-// const event = ref('')
+// const events = ref('')
 
+// write method to get data from the API
 async function fetchData() {
   // returning a promise that is fulfilled once the response is available.
   const res = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${sheet_id}/values:batchGet?ranges=A2%3AE100&valueRenderOption=FORMATTED_VALUE&key=${api_token}`);
   // ...taking JSON as input and parsing it to produce a JavaScript object.
   const data = await res.json();
-  // event.value = data
+  // events.value = data
   
-  // DEVS
+  // display data from the API
   console.log(data)
 }
 

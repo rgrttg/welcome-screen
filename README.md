@@ -1,35 +1,26 @@
-# welcome-screen
+Projekt Nr. 9
+# Welcome Screen
 
-This template should help get you started developing with Vue 3 in Vite.
+## Vercel-Link
 
-## Recommended IDE Setup
+## Files & Folders
+~/src/
+  App.vue
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+  components/
+    BaseHeader.vue
+    BaseCard.vue
+    BaseFooter.vue
+  
+## Google
+api-link:
+https://docs.google.com/spreadsheets/d/AIzaSyDM62NRmThqCPFIZKOUHcuo2Rh2qffMtX0/edit#gid=0
 
-## Customize configuration
+share-link: 
+https://docs.google.com/spreadsheets/d/1NAss2n71KSDXqVm4YvODSKMN3rYxKpEpzFplo5h-FpQ/edit?usp=sharing
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+URL: 
+https://docs.google.com/spreadsheets/d/1NAss2n71KSDXqVm4YvODSKMN3rYxKpEpzFplo5h-FpQ/edit#gid=0
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Sheet-ID
+1NAss2n71KSDXqVm4YvODSKMN3rYxKpEpzFplo5h-FpQ
