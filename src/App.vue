@@ -33,12 +33,13 @@ async function fetchData() {
   
   // display data from the API
   // console.log(data) // => spreadsheet
-  console.log(events.value) // => Proxy(Object)
+  console.log(events.value) // 1.=> Proxy(Object) 2.=> Proxy(Array)
   
 }
 
 fetchData()
 
+// add function to refresh data
 // timeInterval = ref
 // onMounted
 // timeInterval.value
