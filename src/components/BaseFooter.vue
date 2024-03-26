@@ -2,25 +2,24 @@
 </script>
 
 <template>
-  <div class="footer">
-    <!-- <h2 class="grey">{{ msg }}</h2> -->
+  <div class="banner">
     <!-- the layout should support the dimensions: 1080 x 1920 -->
-    <img alt="Fusszeilen-Bild" class="logo" src="../assets/opportunity-footer.png" width="512" height="" />
+    <img alt="Logo der Stadt Zürich" class="" src="../assets/STZH_SEB_Logo.png" width="230" height="44"/>
+    <img alt="Logo von Opportunity Zürich" src="../assets/Opportunity.png" height="48"/>
+    <img alt="Logo SAG" src="../assets/SAG_Logo_De.png" height="52"/>
   </div>
 </template>
 
 <style scoped>
-/* .footer {
-  text-align: center;
+.banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-background-footer);
+  width: 1080px;
+  height: 130px;
+  /* top: 1790; */
 }
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  .footer {
-    text-align: left;
-  }
-} */
 </style>
