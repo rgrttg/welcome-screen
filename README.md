@@ -1,17 +1,33 @@
 Projekt Nr. 9
 # Welcome Screen
+## Inhalt
+1. Beschreibung
+2. Start
+3. Files & Folders
+4. Links
 
-## Vercel-Link
+## 1. Beschreibung
 
-## Files & Folders
+## 2. Start
+```bash
+npm run dev
+```
+
+## 3.Files & Folders
 ~/src/
   App.vue
+  assets/
+    base.css
+    main.css
 
   components/
     BaseHeader.vue
     BaseCard.vue
     BaseFooter.vue
   
+## 4. Vercel-Link
+https://welcome-screen-ten.vercel.app/
+
 ## Google
 api-link:
 https://docs.google.com/spreadsheets/d/AIzaSyDM62NRmThqCPFIZKOUHcuo2Rh2qffMtX0/edit#gid=0
