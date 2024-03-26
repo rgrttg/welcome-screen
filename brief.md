@@ -19,21 +19,20 @@ add data() elements "title", "currentDate"
 add site title
 add function for getting currentDate and display it
 commit to Github
-add API
-write method to get data from the API
-display data from the API
-commit to Github
+add API. 
+write method to get data from the API. 
+display data from the API. 
+commit to Github. 
 ​
 ## Day3:
-adjust valueRanges in the gsheet_url to remove first item in the array (do not show the titles)
-commit to Github
+adjust valueRanges in the gsheet_url to remove first item in the array (do not show the titles). 
+commit to Github. 
 add function to refresh data
 add refreshData function to mounted()
 commit to Github
 
 ## Day4:
-host your project on vercel:
-https://vercel.com/new
+host your project on vercel: https://vercel.com/new
 https://vercel.com/guides/deploying-vuejs-to-vercel
 add preview link of your vercel to your github repository
 update readme of your project
